@@ -1359,3 +1359,5 @@ input, select, textarea {
 
 		.caption p { margin-bottom: 10px; }
 		.caption *:last-child { margin-block: 5px 35px; }
+
+		.slide .image { background-size: contain !important; background-position: center !important; }
