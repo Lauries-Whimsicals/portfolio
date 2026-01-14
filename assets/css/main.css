@@ -1365,7 +1365,12 @@ input, select, textarea {
 
 		.slide .image { background-size: contain !important; background-position: center !important; }
 
+		@media screen and (max-width: 1023px) {
+			.caption h2 { max-width: 385px; }
+		}
+
 		@media screen and (max-width: 736px) {
 			.category-headline-container { padding-inline: 0; text-align: left; }
 			.category-headline { font-size: 1.5em; }
+			.caption h2 { max-width: 315px; }
 		}
