@@ -1351,6 +1351,9 @@ input, select, textarea {
 		}
 
 		/* Custom Code */
+		.category-headline-container { width: 100%; padding: 20px 0 0 2px; text-align: right; }
+    .category-headline-container:first-of-type { padding-top: 0; }
+
 		.btn { display: inline-block; padding: 10px 25px; border: 1px solid transparent; border-radius: 50px; transition: color 300ms, background-color 300ms, border-color 300ms; }
 		.btn:hover { transition: color 300ms, background-color 300ms, border-color 300ms; }
 
@@ -1361,3 +1364,8 @@ input, select, textarea {
 		.caption *:last-child { margin-block: 5px 35px; }
 
 		.slide .image { background-size: contain !important; background-position: center !important; }
+
+		@media screen and (max-width: 736px) {
+			.category-headline-container { padding-inline: 0; text-align: left; }
+			.category-headline { font-size: 1.5em; }
+		}

@@ -744,3 +744,18 @@ var main = (function($) { var _ = {
 	},
 
 }; return _; })(jQuery); main.init();
+
+
+/* CUSTOM CODE */
+const categoryTitleElements = document.querySelectorAll('#thumbnails article[data-category-title]');
+
+// Add category titles to thumbnail section (can't just add HTML due to the way the modal window was built)
+categoryTitleElements.forEach((categoryTitleElement) => {
+	const categroyTitleTextContent = categoryTitleElement.attributes[0].textContent
+
+	categoryTitleElement.insertAdjacentHTML('beforebegin', `
+		<div class="category-headline-container">
+			<h2 class="category-headline">${categroyTitleTextContent}</h2>
+		<div>
+	`);
+});
