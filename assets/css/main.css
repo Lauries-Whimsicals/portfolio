@@ -1357,8 +1357,8 @@ input, select, textarea {
 		.btn { display: inline-block; padding: 10px 25px; border: 1px solid transparent; border-radius: 50px; transition: color 300ms, background-color 300ms, border-color 300ms; }
 		.btn:hover { transition: color 300ms, background-color 300ms, border-color 300ms; }
 
-		.btn-primary { border-color: #ffffff80; }
-		.btn-primary:hover { color: #ffffff; background-color: violet; border-color: #ffffff95; /* border-bottom-color: #ffffff; */ }
+		.btn-primary { border-color: #ffffff; background-color: violet; }
+		.btn-primary:hover { color: white; border-bottom-color: #ffffff; }
 
 		.caption h2 { width: 50%; max-width: 575px; }
 		.caption p { margin-bottom: 10px; }
